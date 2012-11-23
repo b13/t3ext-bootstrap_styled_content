@@ -1,0 +1,2 @@
+  # cat=basic/enable; type=boolean; label=Bootstrap for Backend: If you set this option, bootstrap CSS and JS is always included in the Backend
+enableBackend = 1

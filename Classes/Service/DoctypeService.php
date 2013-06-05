@@ -60,7 +60,8 @@ class Tx_BootstrapStyledContent_Service_DoctypeService {
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="' . $langKey . '"> <![endif]-->
 <!--[if IE 7]> <html class="no-js ie7 oldie" lang="' . $langKey . '"> <![endif]-->
 <!--[if IE 8]> <html class="no-js ie8 oldie" lang="' . $langKey . '"> <![endif]-->
-<!--[if gt IE 8]><!-->
+<!--[if IE 9]> <html class="no-js ie9" lang="' . $langKey . '"> <![endif]-->
+<!--[if gt IE 9]><!-->
 <html lang="' . $langKey . '">
 <!--<![endif]-->
 ';

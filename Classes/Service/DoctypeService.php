@@ -63,7 +63,7 @@ class Tx_BootstrapStyledContent_Service_DoctypeService {
 <!--[if IE 8]> <html class="no-js ie8 oldie" lang="' . $langKey . '"> <![endif]-->
 <!--[if IE 9]> <html class="no-js ie9" lang="' . $langKey . '"> <![endif]-->
 <!--[if gt IE 9]><!-->
-<html lang="' . $langKey . '">
+<html lang="' . $langKey . '" class="no-js">
 <!--<![endif]-->
 ';
 				$pageRenderer = $parentObject->getPageRenderer();
